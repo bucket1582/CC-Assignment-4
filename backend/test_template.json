@@ -1,0 +1,12 @@
+{
+	"httpMethod": "GET",
+	"path": "/sum_and_product",
+    "queryStringParameters": {
+    	"x": "10",
+        "y": "-10"
+    },
+    "headers": {
+    	"Host": "localhost",
+        "X-Forwarded-Proto": "http"
+    }
+}
