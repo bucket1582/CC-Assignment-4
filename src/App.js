@@ -23,6 +23,8 @@ export default function App() {
       return;
     }
 
+    setX(null);
+    setY(null);
     setError(null);
 
     try {
