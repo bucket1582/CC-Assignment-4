@@ -14,17 +14,16 @@ export default function App() {
 
   const calculate = async () => {
     if (inputX === '' || isNaN(inputX)) {
+      setX(null);
       setError('Please enter a valid number for x.');
       return;
     }
 
     if (inputY === '' || isNaN(inputY)) {
+      setY(null);
       setError('Please enter a valid number for y.');
       return;
     }
-
-    setX(null);
-    setY(null);
     setError(null);
 
     try {
